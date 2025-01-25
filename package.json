@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json && tsc -p tsconfig.node.json",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "deploy": "gh-pages -d docs"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.9.0",
@@ -25,6 +26,7 @@
     "@storybook/test": "^8.3.2",
     "@sveltejs/vite-plugin-svelte": "^3.1.1",
     "@tsconfig/svelte": "^5.0.4",
+    "gh-pages": "^6.3.0",
     "prettier": "^3.3.3",
     "sass-embedded": "^1.79.1",
     "storybook": "^8.3.2",
